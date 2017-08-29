@@ -1,0 +1,15 @@
+{
+	"name": "eslint-config-iot",
+	"version": "0.1.0",
+	"main": "index.js",
+	"author": "snadn",
+	"license": "MIT",
+	"dependencies": {
+		"eslint": "^4.5.0",
+		"eslint-config-airbnb": "^15.1.0",
+		"eslint-plugin-import": "^2.7.0",
+		"eslint-plugin-jsx-a11y": "^5.1.1",
+		"eslint-plugin-react": "^7.3.0"
+	},
+	"repository": "git@github.com:iotofcmcc/eslint-config-iot.git"
+}
