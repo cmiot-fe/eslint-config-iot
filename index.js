@@ -17,6 +17,13 @@ module.exports = {
 		"no-throw-literal": "off",
 		"no-underscore-dangle": "off",
 		"import/no-dynamic-require": "off",
+		"react/jsx-filename-extension": ["error", {
+			"extensions": [".js", ".jsx"]
+		}],
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"react/no-multi-comp": "off",
+		"react/forbid-prop-types": "off",
 		"max-len": ["warn", 120]
 	}
 }
