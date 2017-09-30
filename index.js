@@ -1,6 +1,9 @@
 module.exports = {
 	"extends": "airbnb",
 	"parser": "babel-eslint",
+	"settings": {
+		"import/resolver": "webpack"
+	},
 	"rules": {
 		"linebreak-style": ["error", "windows"],
 		"indent": ["error", "tab"],
@@ -11,6 +14,14 @@ module.exports = {
 		}],
 		"no-unused-expressions": ["error", {
 			"allowShortCircuit": true
+		}],
+		"no-unused-vars": ["error", {
+			"vars": "local",
+			"args": "none",
+			"ignoreRestSiblings": true
+		}],
+		"no-bitwise": ["error", {
+			"int32Hint": true
 		}],
 		"class-methods-use-this": "off",
 		"no-tabs": "off",
