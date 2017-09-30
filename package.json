@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-iot",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"main": "index.js",
 	"author": "snadn",
 	"license": "MIT",
@@ -8,6 +8,7 @@
 		"babel-eslint": "^7.2.3",
 		"eslint": "^4.5.0",
 		"eslint-config-airbnb": "^15.1.0",
+		"eslint-import-resolver-webpack": "^0.8.3",
 		"eslint-plugin-import": "^2.7.0",
 		"eslint-plugin-jsx-a11y": "^5.1.1",
 		"eslint-plugin-react": "^7.3.0"
