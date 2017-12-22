@@ -23,11 +23,13 @@ module.exports = {
 		"no-bitwise": ["error", {
 			"int32Hint": true
 		}],
-		"class-methods-use-this": "off",
 		"no-tabs": "off",
 		"no-throw-literal": "off",
 		"no-underscore-dangle": "off",
 		"import/no-dynamic-require": "off",
+		"import/extensions": [".js", {
+			"ignorePackages": true
+		}],
 		"react/jsx-filename-extension": ["error", {
 			"extensions": [".js", ".jsx"]
 		}],
@@ -35,6 +37,12 @@ module.exports = {
 		"react/jsx-indent-props": ["error", "tab"],
 		"react/no-multi-comp": "off",
 		"react/forbid-prop-types": "off",
+		"react/prop-types": "off",
+		"react/no-array-index-key": "warn",
+		"react/no-did-mount-set-state": "off",
+		"jsx-a11y/label-has-for": "off",
+		"global-require": "off",
+		"class-methods-use-this": "off",
 		"max-len": ["warn", 120]
 	}
 }
