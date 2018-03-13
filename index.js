@@ -27,8 +27,7 @@ module.exports = {
 		"no-throw-literal": "off",
 		"no-underscore-dangle": "off",
 		"import/no-dynamic-require": "off",
-		"import/extensions": ["error", "always", {
-			"js": "never",
+		"import/extensions": ["error", "always", "js", {
 			"ignorePackages": true
 		}],
 		"react/jsx-filename-extension": ["error", {
