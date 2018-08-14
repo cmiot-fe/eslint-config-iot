@@ -618,6 +618,18 @@ eslint-config-airbnb@^16.1.0:
   dependencies:
     eslint-config-airbnb-base "^12.1.0"
 
+eslint-config-cmiot@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-cmiot/-/eslint-config-cmiot-0.2.0.tgz#ff8c3f3d1408030729fc38c51ae0db06476a867d"
+  dependencies:
+    babel-eslint "^8.2.3"
+    eslint "^4.19.1"
+    eslint-config-airbnb "^16.1.0"
+    eslint-import-resolver-webpack "^0.9.0"
+    eslint-plugin-import "^2.11.0"
+    eslint-plugin-jsx-a11y "^6.0.3"
+    eslint-plugin-react "^7.7.0"
+
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
