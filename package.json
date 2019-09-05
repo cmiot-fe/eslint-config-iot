@@ -1,11 +1,11 @@
 {
 	"name": "eslint-config-iot",
-	"version": "0.5.0",
+	"version": "1.0.0",
 	"main": "index.js",
 	"author": "snadn",
 	"license": "MIT",
 	"dependencies": {
-		"eslint-config-cmiot": "^0.5.0"
+		"eslint-config-cmiot": "^1.0.0"
 	},
 	"repository": "https://github.com/cmiot-fe/eslint-config-iot.git"
 }
